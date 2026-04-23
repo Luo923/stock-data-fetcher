@@ -1,6 +1,8 @@
 
 name: Fetch Stock Data
 on:
+  push:
+    branches: [master]
   schedule:
     - cron: '30 6 * * 1-5'  # 14:30 CST weekday
   workflow_dispatch:  # manual trigger
