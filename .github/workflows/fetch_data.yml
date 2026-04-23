@@ -1,5 +1,8 @@
 
 name: Fetch Stock Data
+permissions:
+  contents: write
+
 on:
   push:
     branches: [master]
