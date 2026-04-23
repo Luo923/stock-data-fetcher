@@ -1,5 +1,6 @@
 
 import akshare as ak
+import time
 import pandas as pd
 import os, json
 from datetime import datetime, timedelta
@@ -48,6 +49,6 @@ for code, name in STOCKS.items():
         manifest.append({"code": code, "name": name, "rows": 0, "error": str(e)})
 
 with open("data/manifest.json", "w", encoding="utf-8") as f:
-    json.dump(manifest, f, ensure_ascii=False, indent=2)
+    json.dump(manifest, f, ensure_ascii=False, indent=2, default=str)
 
 print(f"\nDone: {sum(1 for m in manifest if m['rows']>0)}/{len(STOCKS)} stocks fetched")
