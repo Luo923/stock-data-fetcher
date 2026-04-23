@@ -1,0 +1,182 @@
+{
+  "stocks": {
+    "601899": {
+      "name": "紫金矿业",
+      "rows": 243,
+      "csv": "data/stock_601899.csv"
+    },
+    "600519": {
+      "name": "贵州茅台",
+      "rows": 243,
+      "csv": "data/stock_600519.csv"
+    },
+    "300308": {
+      "name": "中际旭创",
+      "rows": 243,
+      "csv": "data/stock_300308.csv"
+    },
+    "300502": {
+      "name": "新易盛",
+      "rows": 243,
+      "csv": "data/stock_300502.csv"
+    },
+    "688981": {
+      "name": "中芯国际",
+      "rows": 243,
+      "csv": "data/stock_688981.csv"
+    },
+    "600875": {
+      "name": "东方电气",
+      "rows": 243,
+      "csv": "data/stock_600875.csv"
+    },
+    "601727": {
+      "name": "上海电气",
+      "rows": 243,
+      "csv": "data/stock_601727.csv"
+    },
+    "600111": {
+      "name": "北方稀土",
+      "rows": 243,
+      "csv": "data/stock_600111.csv"
+    },
+    "002460": {
+      "name": "赣锋锂业",
+      "rows": 243,
+      "csv": "data/stock_002460.csv"
+    },
+    "002384": {
+      "name": "东山精密",
+      "rows": 243,
+      "csv": "data/stock_002384.csv"
+    },
+    "300476": {
+      "name": "胜宏科技",
+      "rows": 243,
+      "csv": "data/stock_300476.csv"
+    },
+    "300751": {
+      "name": "迈为股份",
+      "rows": 243,
+      "csv": "data/stock_300751.csv"
+    },
+    "002475": {
+      "name": "立讯精密",
+      "rows": 243,
+      "csv": "data/stock_002475.csv"
+    },
+    "603259": {
+      "name": "巨星科技",
+      "rows": 243,
+      "csv": "data/stock_603259.csv"
+    },
+    "002008": {
+      "name": "大族激光",
+      "rows": 243,
+      "csv": "data/stock_002008.csv"
+    },
+    "603083": {
+      "name": "剑桥科技",
+      "rows": 243,
+      "csv": "data/stock_603083.csv"
+    },
+    "300570": {
+      "name": "太辰光",
+      "rows": 243,
+      "csv": "data/stock_300570.csv"
+    },
+    "603306": {
+      "name": "华懋科技",
+      "rows": 243,
+      "csv": "data/stock_603306.csv"
+    },
+    "002281": {
+      "name": "光迅科技",
+      "rows": 243,
+      "csv": "data/stock_002281.csv"
+    },
+    "300964": {
+      "name": "本川智能",
+      "rows": 243,
+      "csv": "data/stock_300964.csv"
+    },
+    "688396": {
+      "name": "华润微",
+      "rows": 243,
+      "csv": "data/stock_688396.csv"
+    },
+    "300049": {
+      "name": "福瑞股份",
+      "rows": 243,
+      "csv": "data/stock_300049.csv"
+    },
+    "600547": {
+      "name": "山东黄金",
+      "rows": 243,
+      "csv": "data/stock_600547.csv"
+    },
+    "601600": {
+      "name": "中国铝业",
+      "rows": 243,
+      "csv": "data/stock_601600.csv"
+    },
+    "000630": {
+      "name": "铜陵有色",
+      "rows": 243,
+      "csv": "data/stock_000630.csv"
+    },
+    "603993": {
+      "name": "洛阳钼业",
+      "rows": 243,
+      "csv": "data/stock_603993.csv"
+    },
+    "002738": {
+      "name": "中矿资源",
+      "rows": 243,
+      "csv": "data/stock_002738.csv"
+    },
+    "603799": {
+      "name": "华友钴业",
+      "rows": 243,
+      "csv": "data/stock_603799.csv"
+    },
+    "000831": {
+      "name": "五矿稀土",
+      "rows": 243,
+      "csv": "data/stock_000831.csv"
+    },
+    "300999": {
+      "name": "金龙鱼",
+      "rows": 243,
+      "csv": "data/stock_300999.csv"
+    }
+  },
+  "funds": {
+    "240022": {
+      "name": "华宝资源优选",
+      "rows": 0,
+      "error": "HTTP 404"
+    },
+    "003365": {
+      "name": "平安鑫安混合",
+      "rows": 0,
+      "error": "HTTP 404"
+    },
+    "015780": {
+      "name": "永赢高端装备",
+      "rows": 0,
+      "error": "HTTP 404"
+    },
+    "013942": {
+      "name": "华宝稀有金属",
+      "rows": 0,
+      "error": "HTTP 404"
+    },
+    "004320": {
+      "name": "前海开源乐享",
+      "rows": 0,
+      "error": "HTTP 404"
+    }
+  },
+  "updated": "2026-04-23T08:34:22.847113"
+}
