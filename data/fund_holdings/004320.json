@@ -1,77 +1,77 @@
 {
   "fund_code": "004320",
   "fund_name": "前海开源沪港深乐享生活",
+  "quarter": "2026年1季度股票投资明细",
   "holdings": [
     {
-      "code": "1",
-      "name": "300502",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.300502'>新易盛</a>",
-      "value": "<span data-id='dq300502'></span>",
-      "ratio": "<span data-id='zd300502'></span>"
+      "code": "300502",
+      "name": "新易盛",
+      "ratio": "8.8",
+      "shares": "21.0",
+      "value": "9300.22"
     },
     {
-      "code": "2",
-      "name": "300308",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.300308'>中际旭创</a>",
-      "value": "<span data-id='dq300308'></span>",
-      "ratio": "<span data-id='zd300308'></span>"
+      "code": "300308",
+      "name": "中际旭创",
+      "ratio": "8.63",
+      "shares": "16.01",
+      "value": "9116.25"
     },
     {
-      "code": "3",
-      "name": "603306",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.603306'>华懋科技</a>",
-      "value": "<span data-id='dq603306'></span>",
-      "ratio": "<span data-id='zd603306'></span>"
+      "code": "603306",
+      "name": "华懋科技",
+      "ratio": "7.86",
+      "shares": "109.8",
+      "value": "8300.88"
     },
     {
-      "code": "4",
-      "name": "603052",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.603052'>可川科技</a>",
-      "value": "<span data-id='dq603052'></span>",
-      "ratio": "<span data-id='zd603052'></span>"
+      "code": "603052",
+      "name": "可川科技",
+      "ratio": "7.79",
+      "shares": "125.4",
+      "value": "8228.61"
     },
     {
-      "code": "5",
-      "name": "603083",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.603083'>剑桥科技</a>",
-      "value": "<span data-id='dq603083'></span>",
-      "ratio": "<span data-id='zd603083'></span>"
+      "code": "603083",
+      "name": "剑桥科技",
+      "ratio": "7.75",
+      "shares": "80.66",
+      "value": "8195.0"
     },
     {
-      "code": "6",
-      "name": "002222",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.002222'>福晶科技</a>",
-      "value": "<span data-id='dq002222'></span>",
-      "ratio": "<span data-id='zd002222'></span>"
+      "code": "002222",
+      "name": "福晶科技",
+      "ratio": "7.65",
+      "shares": "118.81",
+      "value": "8081.46"
     },
     {
-      "code": "7",
-      "name": "002384",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.002384'>东山精密</a>",
-      "value": "<span data-id='dq002384'></span>",
-      "ratio": "<span data-id='zd002384'></span>"
+      "code": "002384",
+      "name": "东山精密",
+      "ratio": "7.54",
+      "shares": "77.12",
+      "value": "7966.09"
     },
     {
-      "code": "8",
-      "name": "300757",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.300757'>罗博特科</a>",
-      "value": "<span data-id='dq300757'></span>",
-      "ratio": "<span data-id='zd300757'></span>"
+      "code": "300757",
+      "name": "罗博特科",
+      "ratio": "7.53",
+      "shares": "20.92",
+      "value": "7962.36"
     },
     {
-      "code": "9",
-      "name": "600330",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.600330'>天通股份</a>",
-      "value": "<span data-id='dq600330'></span>",
-      "ratio": "<span data-id='zd600330'></span>"
+      "code": "600330",
+      "name": "天通股份",
+      "ratio": "7.16",
+      "shares": "484.34",
+      "value": "7570.23"
     },
     {
-      "code": "10",
-      "name": "603738",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.603738'>泰晶科技</a>",
-      "value": "<span data-id='dq603738'></span>",
-      "ratio": "<span data-id='zd603738'></span>"
+      "code": "603738",
+      "name": "泰晶科技",
+      "ratio": "5.22",
+      "shares": "212.81",
+      "value": "5516.04"
     }
-  ],
-  "updated": "2026-04-24T08:01:42.602073"
+  ]
 }

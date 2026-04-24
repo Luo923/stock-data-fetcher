@@ -1,77 +1,77 @@
 {
   "fund_code": "011369",
   "fund_name": "华商均衡成长混合A",
+  "quarter": "2026年1季度股票投资明细",
   "holdings": [
     {
-      "code": "1",
-      "name": "601869",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.601869'>长飞光纤</a>",
-      "value": "<span data-id='dq601869'></span>",
-      "ratio": "<span data-id='zd601869'></span>"
+      "code": "601869",
+      "name": "长飞光纤",
+      "ratio": "9.42",
+      "shares": "211.25",
+      "value": "65379.76"
     },
     {
-      "code": "2",
-      "name": "300502",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.300502'>新易盛</a>",
-      "value": "<span data-id='dq300502'></span>",
-      "ratio": "<span data-id='zd300502'></span>"
+      "code": "300502",
+      "name": "新易盛",
+      "ratio": "7.66",
+      "shares": "120.16",
+      "value": "53212.01"
     },
     {
-      "code": "3",
-      "name": "300308",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.300308'>中际旭创</a>",
-      "value": "<span data-id='dq300308'></span>",
-      "ratio": "<span data-id='zd300308'></span>"
+      "code": "300308",
+      "name": "中际旭创",
+      "ratio": "6.69",
+      "shares": "81.54",
+      "value": "46427.3"
     },
     {
-      "code": "4",
-      "name": "688498",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.688498'>源杰科技</a>",
-      "value": "<span data-id='dq688498'></span>",
-      "ratio": "<span data-id='zd688498'></span>"
+      "code": "688498",
+      "name": "源杰科技",
+      "ratio": "5.15",
+      "shares": "35.56",
+      "value": "35751.13"
     },
     {
-      "code": "5",
-      "name": "688048",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.688048'>长光华芯</a>",
-      "value": "<span data-id='dq688048'></span>",
-      "ratio": "<span data-id='zd688048'></span>"
+      "code": "688048",
+      "name": "长光华芯",
+      "ratio": "4.36",
+      "shares": "147.03",
+      "value": "30288.45"
     },
     {
-      "code": "6",
-      "name": "600105",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.600105'>永鼎股份</a>",
-      "value": "<span data-id='dq600105'></span>",
-      "ratio": "<span data-id='zd600105'></span>"
+      "code": "600105",
+      "name": "永鼎股份",
+      "ratio": "3.63",
+      "shares": "908.9",
+      "value": "25212.83"
     },
     {
-      "code": "7",
-      "name": "600487",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.600487'>亨通光电</a>",
-      "value": "<span data-id='dq600487'></span>",
-      "ratio": "<span data-id='zd600487'></span>"
+      "code": "600487",
+      "name": "亨通光电",
+      "ratio": "3.01",
+      "shares": "396.72",
+      "value": "20891.3"
     },
     {
-      "code": "8",
-      "name": "688195",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.688195'>腾景科技</a>",
-      "value": "<span data-id='dq688195'></span>",
-      "ratio": "<span data-id='zd688195'></span>"
+      "code": "688195",
+      "name": "腾景科技",
+      "ratio": "2.77",
+      "shares": "71.0",
+      "value": "19208.02"
     },
     {
-      "code": "9",
-      "name": "002384",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.002384'>东山精密</a>",
-      "value": "<span data-id='dq002384'></span>",
-      "ratio": "<span data-id='zd002384'></span>"
+      "code": "002384",
+      "name": "东山精密",
+      "ratio": "2.66",
+      "shares": "178.74",
+      "value": "18463.84"
     },
     {
-      "code": "10",
-      "name": "600522",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.600522'>中天科技</a>",
-      "value": "<span data-id='dq600522'></span>",
-      "ratio": "<span data-id='zd600522'></span>"
+      "code": "600522",
+      "name": "中天科技",
+      "ratio": "2.63",
+      "shares": "606.04",
+      "value": "18235.74"
     }
-  ],
-  "updated": "2026-04-24T08:01:39.395868"
+  ]
 }

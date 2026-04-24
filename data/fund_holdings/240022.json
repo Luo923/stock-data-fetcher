@@ -1,77 +1,77 @@
 {
   "fund_code": "240022",
   "fund_name": "华宝资源优选混合A",
+  "quarter": "2026年1季度股票投资明细",
   "holdings": [
     {
-      "code": "1",
-      "name": "601899",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.601899'>紫金矿业</a>",
-      "value": "<span data-id='dq601899'></span>",
-      "ratio": "<span data-id='zd601899'></span>"
+      "code": "601899",
+      "name": "紫金矿业",
+      "ratio": "9.87",
+      "shares": "1033.86",
+      "value": "33827.9"
     },
     {
-      "code": "2",
-      "name": "000408",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.000408'>藏格矿业</a>",
-      "value": "<span data-id='dq000408'></span>",
-      "ratio": "<span data-id='zd000408'></span>"
+      "code": "000408",
+      "name": "藏格矿业",
+      "ratio": "7.98",
+      "shares": "345.01",
+      "value": "27349.32"
     },
     {
-      "code": "3",
-      "name": "603993",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.603993'>洛阳钼业</a>",
-      "value": "<span data-id='dq603993'></span>",
-      "ratio": "<span data-id='zd603993'></span>"
+      "code": "603993",
+      "name": "洛阳钼业",
+      "ratio": "6.82",
+      "shares": "1363.0",
+      "value": "23375.52"
     },
     {
-      "code": "4",
-      "name": "001203",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.001203'>大中矿业</a>",
-      "value": "<span data-id='dq001203'></span>",
-      "ratio": "<span data-id='zd001203'></span>"
+      "code": "001203",
+      "name": "大中矿业",
+      "ratio": "5.69",
+      "shares": "488.2",
+      "value": "19493.83"
     },
     {
-      "code": "5",
-      "name": "002532",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.002532'>天山铝业</a>",
-      "value": "<span data-id='dq002532'></span>",
-      "ratio": "<span data-id='zd002532'></span>"
+      "code": "002532",
+      "name": "天山铝业",
+      "ratio": "5.68",
+      "shares": "1093.2",
+      "value": "19448.03"
     },
     {
-      "code": "6",
-      "name": "000807",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.000807'>云铝股份</a>",
-      "value": "<span data-id='dq000807'></span>",
-      "ratio": "<span data-id='zd000807'></span>"
+      "code": "000807",
+      "name": "云铝股份",
+      "ratio": "5.09",
+      "shares": "562.6",
+      "value": "17440.6"
     },
     {
-      "code": "7",
-      "name": "601600",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.601600'>中国铝业</a>",
-      "value": "<span data-id='dq601600'></span>",
-      "ratio": "<span data-id='zd601600'></span>"
+      "code": "601600",
+      "name": "中国铝业",
+      "ratio": "4.44",
+      "shares": "1334.18",
+      "value": "15209.65"
     },
     {
-      "code": "8",
-      "name": "600988",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.600988'>赤峰黄金</a>",
-      "value": "<span data-id='dq600988'></span>",
-      "ratio": "<span data-id='zd600988'></span>"
+      "code": "600988",
+      "name": "赤峰黄金",
+      "ratio": "3.95",
+      "shares": "313.6",
+      "value": "13531.84"
     },
     {
-      "code": "9",
-      "name": "300390",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.300390'>天华新能</a>",
-      "value": "<span data-id='dq300390'></span>",
-      "ratio": "<span data-id='zd300390'></span>"
+      "code": "300390",
+      "name": "天华新能",
+      "ratio": "3.5",
+      "shares": "205.22",
+      "value": "12005.14"
     },
     {
-      "code": "10",
-      "name": "600188",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.600188'>兖矿能源</a>",
-      "value": "<span data-id='dq600188'></span>",
-      "ratio": "<span data-id='zd600188'></span>"
+      "code": "600188",
+      "name": "兖矿能源",
+      "ratio": "3.32",
+      "shares": "588.0",
+      "value": "11377.8"
     }
-  ],
-  "updated": "2026-04-24T08:01:35.572773"
+  ]
 }

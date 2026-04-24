@@ -154,32 +154,32 @@
   "funds": {
     "240022": {
       "name": "华宝资源优选混合A",
-      "rows": 0,
-      "error": "'NoneType' object has no attribute 'get'",
+      "rows": 3312,
+      "csv": "data/fund_240022.csv",
       "holdings": "data/fund_holdings/240022.json",
       "holdings_count": 10
     },
     "011369": {
       "name": "华商均衡成长混合A",
-      "rows": 0,
-      "error": "'NoneType' object has no attribute 'get'",
+      "rows": 1194,
+      "csv": "data/fund_011369.csv",
       "holdings": "data/fund_holdings/011369.json",
       "holdings_count": 10
     },
     "004320": {
       "name": "前海开源沪港深乐享生活",
-      "rows": 0,
-      "error": "'NoneType' object has no attribute 'get'",
+      "rows": 2168,
+      "csv": "data/fund_004320.csv",
       "holdings": "data/fund_holdings/004320.json",
       "holdings_count": 10
     },
     "015790": {
       "name": "永赢高端装备智选混合发起C",
-      "rows": 0,
-      "error": "'NoneType' object has no attribute 'get'",
+      "rows": 887,
+      "csv": "data/fund_015790.csv",
       "holdings": "data/fund_holdings/015790.json",
       "holdings_count": 10
     }
   },
-  "updated": "2026-04-24T08:00:58.198597"
+  "updated": "2026-04-24T08:27:41.853370"
 }

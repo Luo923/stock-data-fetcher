@@ -1,77 +1,77 @@
 {
   "fund_code": "015790",
   "fund_name": "永赢高端装备智选混合发起C",
+  "quarter": "2026年1季度股票投资明细",
   "holdings": [
     {
-      "code": "1",
-      "name": "600879",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.600879'>航天电子</a>",
-      "value": "<span data-id='dq600879'></span>",
-      "ratio": "<span data-id='zd600879'></span>"
+      "code": "600879",
+      "name": "航天电子",
+      "ratio": "7.6",
+      "shares": "6469.16",
+      "value": "143874.22"
     },
     {
-      "code": "2",
-      "name": "600118",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.600118'>中国卫星</a>",
-      "value": "<span data-id='dq600118'></span>",
-      "ratio": "<span data-id='zd600118'></span>"
+      "code": "600118",
+      "name": "中国卫星",
+      "ratio": "5.21",
+      "shares": "1204.44",
+      "value": "98595.51"
     },
     {
-      "code": "3",
-      "name": "300342",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.300342'>天银机电</a>",
-      "value": "<span data-id='dq300342'></span>",
-      "ratio": "<span data-id='zd300342'></span>"
+      "code": "300342",
+      "name": "天银机电",
+      "ratio": "4.76",
+      "shares": "1763.53",
+      "value": "90081.06"
     },
     {
-      "code": "4",
-      "name": "688375",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.688375'>国博电子</a>",
-      "value": "<span data-id='dq688375'></span>",
-      "ratio": "<span data-id='zd688375'></span>"
+      "code": "688375",
+      "name": "国博电子",
+      "ratio": "4.54",
+      "shares": "774.78",
+      "value": "85931.09"
     },
     {
-      "code": "5",
-      "name": "601698",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.601698'>中国卫通</a>",
-      "value": "<span data-id='dq601698'></span>",
-      "ratio": "<span data-id='zd601698'></span>"
+      "code": "601698",
+      "name": "中国卫通",
+      "ratio": "4.19",
+      "shares": "2403.35",
+      "value": "79310.65"
     },
     {
-      "code": "6",
-      "name": "300136",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.300136'>信维通信</a>",
-      "value": "<span data-id='dq300136'></span>",
-      "ratio": "<span data-id='zd300136'></span>"
+      "code": "300136",
+      "name": "信维通信",
+      "ratio": "4.17",
+      "shares": "1216.65",
+      "value": "79033.58"
     },
     {
-      "code": "7",
-      "name": "688568",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.688568'>中科星图</a>",
-      "value": "<span data-id='dq688568'></span>",
-      "ratio": "<span data-id='zd688568'></span>"
+      "code": "688568",
+      "name": "中科星图",
+      "ratio": "4.17",
+      "shares": "1294.29",
+      "value": "78951.77"
     },
     {
-      "code": "8",
-      "name": "300102",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.300102'>乾照光电</a>",
-      "value": "<span data-id='dq300102'></span>",
-      "ratio": "<span data-id='zd300102'></span>"
+      "code": "300102",
+      "name": "乾照光电",
+      "ratio": "4.16",
+      "shares": "2435.97",
+      "value": "78657.31"
     },
     {
-      "code": "9",
-      "name": "600498",
-      "share": "<a href='//quote.eastmoney.com/unify/r/1.600498'>烽火通信</a>",
-      "value": "<span data-id='dq600498'></span>",
-      "ratio": "<span data-id='zd600498'></span>"
+      "code": "600498",
+      "name": "烽火通信",
+      "ratio": "4.1",
+      "shares": "1537.74",
+      "value": "77625.17"
     },
     {
-      "code": "10",
-      "name": "301005",
-      "share": "<a href='//quote.eastmoney.com/unify/r/0.301005'>超捷股份</a>",
-      "value": "<span data-id='dq301005'></span>",
-      "ratio": "<span data-id='zd301005'></span>"
+      "code": "301005",
+      "name": "超捷股份",
+      "ratio": "3.66",
+      "shares": "418.67",
+      "value": "69226.54"
     }
-  ],
-  "updated": "2026-04-24T08:01:45.768069"
+  ]
 }
