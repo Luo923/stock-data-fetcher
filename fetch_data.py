@@ -1,4 +1,4 @@
-import requests, json, os, time, re
+import requests, json, os, time
 from datetime import datetime
 
 # Yahoo Finance API - globally accessible from GitHub Actions
@@ -35,7 +35,7 @@ STOCKS = {
     "300999.SZ": ("300999", "金龙鱼"),
 }
 
-# Fund list with correct names - using eastmoney API for NAV + holdings
+# Fund list - user's actual holdings
 FUNDS = {
     "240022": "华宝资源优选混合A",
     "011369": "华商均衡成长混合A",
@@ -102,134 +102,85 @@ for yahoo_code, (code, name) in STOCKS.items():
         manifest["stocks"][code] = {"name": name, "rows": 0, "error": str(e)}
     time.sleep(1)
 
-# Fetch fund NAV data from eastmoney API (works on GitHub Actions)
-def fetch_fund_nav(fund_code, fund_name):
-    """Fetch fund historical NAV from eastmoney API"""
+# Fetch fund data using akshare (works on GitHub Actions with direct internet)
+import akshare as ak
+import pandas as pd
+
+for fund_code, fund_name in FUNDS.items():
+    # --- NAV history ---
     try:
-        # eastmoney fund history NAV API
-        url = f"https://api.fund.eastmoney.com/f10/lsjz"
-        params = {
-            "fundCode": fund_code,
-            "pageIndex": 1,
-            "pageSize": 250,
-            "startDate": "",
-            "endDate": "",
-        }
-        headers = {
-            "User-Agent": "Mozilla/5.0",
-            "Referer": f"https://fundf10.eastmoney.com/jjjz_{fund_code}.html",
-        }
-        r = requests.get(url, params=params, headers=headers, timeout=30)
-        if r.status_code == 200:
-            data = r.json()
-            nav_list = data.get("Data", {}).get("LSJZList", [])
-            if nav_list:
-                csv_path = f"data/fund_{fund_code}.csv"
-                count = 0
-                with open(csv_path, "w") as f:
-                    f.write("date,nav,acc_nav,change_pct\n")
-                    for item in nav_list:
-                        fsrq = item.get("FSRQ", "")
-                        dwjz = item.get("DWJZ", "")
-                        ljjz = item.get("LJJZ", "")
-                        jzzzl = item.get("JZZZL", "")
-                        if fsrq and dwjz:
-                            f.write(f"{fsrq},{dwjz},{ljjz},{jzzzl}\n")
-                            count += 1
-                manifest["funds"][fund_code] = {"name": fund_name, "rows": count, "csv": csv_path}
-                print(f"  {fund_code} {fund_name} NAV: {count} rows")
-                return count
-        # Fallback: try another eastmoney endpoint
-        url2 = f"https://fund.eastmoney.com/f10/F10DataApi.aspx"
-        params2 = {
-            "type": "lsjz",
-            "code": fund_code,
-            "page": 1,
-            "sdate": "",
-            "edate": "",
-            "per": 250,
-        }
-        r2 = requests.get(url2, params=params2, headers={"User-Agent": "Mozilla/5.0"}, timeout=30)
-        if r2.status_code == 200:
-            # Parse HTML table
-            rows = re.findall(r'<tr>(.*?)</tr>', r2.text, re.DOTALL)
-            if rows:
-                csv_path = f"data/fund_{fund_code}.csv"
-                count = 0
-                with open(csv_path, "w") as f:
-                    f.write("date,nav,acc_nav,change_pct\n")
-                    for row in rows[1:]:  # skip header
-                        cols = re.findall(r'<td[^>]*>(.*?)</td>', row)
-                        if len(cols) >= 4:
-                            f.write(f"{cols[0]},{cols[1]},{cols[2]},{cols[3]}\n")
-                            count += 1
-                manifest["funds"][fund_code] = {"name": fund_name, "rows": count, "csv": csv_path}
-                print(f"  {fund_code} {fund_name} NAV(fallback): {count} rows")
-                return count
-        print(f"  {fund_code} {fund_name} NAV: no data")
-        manifest["funds"][fund_code] = {"name": fund_name, "rows": 0, "error": "no nav data"}
-        return 0
+        df = ak.fund_open_fund_info_em(symbol=fund_code, indicator="单位净值走势")
+        if df is not None and len(df) > 0:
+            csv_path = f"data/fund_{fund_code}.csv"
+            # akshare columns: 净值日期, 单位净值, 日增长率
+            df_out = df.rename(columns={
+                "净值日期": "date",
+                "单位净值": "nav", 
+                "日增长率": "change_pct"
+            })
+            df_out[["date", "nav", "change_pct"]].to_csv(csv_path, index=False)
+            manifest["funds"][fund_code] = {"name": fund_name, "rows": len(df_out), "csv": csv_path}
+            print(f"  {fund_code} {fund_name} NAV: {len(df_out)} rows")
+        else:
+            print(f"  {fund_code} {fund_name} NAV: empty response")
+            manifest["funds"][fund_code] = {"name": fund_name, "rows": 0, "error": "empty"}
     except Exception as e:
         print(f"  {fund_code} {fund_name} NAV: ERROR {e}")
         manifest["funds"][fund_code] = {"name": fund_name, "rows": 0, "error": str(e)}
-        return 0
-
-def fetch_fund_holdings(fund_code, fund_name):
-    """Fetch fund top-10 stock holdings from eastmoney"""
+    
+    time.sleep(1)
+    
+    # --- Top-10 holdings ---
     try:
-        url = "https://fundf10.eastmoney.com/FundArchivesDatas.aspx"
-        params = {
-            "type": "jjcc",
-            "code": fund_code,
-            "topline": 10,
-            "year": datetime.now().year,
-            "month": "",
-            "rt": "0." + str(int(time.time() * 1000))[-10:],
-        }
-        headers = {
-            "User-Agent": "Mozilla/5.0",
-            "Referer": f"https://fundf10.eastmoney.com/ccmx_{fund_code}.html",
-        }
-        r = requests.get(url, params=params, headers=headers, timeout=30)
-        if r.status_code == 200 and "暂无数据" not in r.text:
-            # Parse holdings from HTML
-            holdings = []
-            rows = re.findall(r'<tr>(.*?)</tr>', r.text, re.DOTALL)
-            for row in rows:
-                cols = re.findall(r'<td[^>]*>(.*?)</td>', row)
-                links = re.findall(r'<a[^>]*>(.*?)</a>', row)
-                if len(cols) >= 6:
-                    stock_code = re.sub(r'<[^>]+>', '', cols[0]).strip()
-                    stock_name = re.sub(r'<[^>]+>', '', cols[1]).strip() if len(cols) > 1 else ""
-                    if not stock_name and links:
-                        stock_name = re.sub(r'<[^>]+>', '', links[0]).strip()
-                    holdings.append({
-                        "code": stock_code,
-                        "name": stock_name,
-                        "share": cols[2] if len(cols) > 2 else "",
-                        "value": cols[3] if len(cols) > 3 else "",
-                        "ratio": cols[4] if len(cols) > 4 else "",
-                    })
-            if holdings:
-                hold_path = f"data/fund_holdings/{fund_code}.json"
-                with open(hold_path, "w", encoding="utf-8") as f:
-                    json.dump({"fund_code": fund_code, "fund_name": fund_name, 
-                               "holdings": holdings, "updated": datetime.now().isoformat()}, 
-                              f, ensure_ascii=False, indent=2)
-                manifest["funds"][fund_code]["holdings"] = hold_path
-                manifest["funds"][fund_code]["holdings_count"] = len(holdings)
-                print(f"  {fund_code} {fund_name} holdings: {len(holdings)} stocks")
-            else:
-                print(f"  {fund_code} {fund_name} holdings: parsed 0")
+        # Try current year first, then previous year
+        holdings = None
+        for yr in [str(datetime.now().year), str(datetime.now().year - 1)]:
+            try:
+                df_h = ak.fund_portfolio_hold_em(symbol=fund_code, date=yr)
+                if df_h is not None and len(df_h) > 0:
+                    holdings = df_h
+                    break
+            except:
+                continue
+        
+        if holdings is not None and len(holdings) > 0:
+            # akshare columns: 季度, 股票代码, 股票名称, 占净值比例, 持股数(万股), 持仓市值(万元)
+            # Take the latest quarter only
+            latest_quarter = holdings.iloc[0]["季度"] if "季度" in holdings.columns else ""
+            latest = holdings[holdings["季度"] == latest_quarter].head(10) if "季度" in holdings.columns else holdings.head(10)
+            
+            holdings_list = []
+            for _, row in latest.iterrows():
+                holdings_list.append({
+                    "code": str(row.get("股票代码", "")).strip(),
+                    "name": str(row.get("股票名称", "")).strip(),
+                    "ratio": str(row.get("占净值比例", "")).strip(),
+                    "shares": str(row.get("持股数", "")).strip(),
+                    "value": str(row.get("持仓市值", "")).strip(),
+                })
+            
+            json_path = f"data/fund_holdings/{fund_code}.json"
+            with open(json_path, "w", encoding="utf-8") as f:
+                json.dump({
+                    "fund_code": fund_code,
+                    "fund_name": fund_name,
+                    "quarter": latest_quarter,
+                    "holdings": holdings_list,
+                }, f, ensure_ascii=False, indent=2)
+            print(f"  {fund_code} {fund_name} holdings: {len(holdings_list)} stocks (Q:{latest_quarter})")
+            if fund_code not in manifest["funds"]:
+                manifest["funds"][fund_code] = {"name": fund_name, "rows": 0}
+            manifest["funds"][fund_code]["holdings"] = json_path
+            manifest["funds"][fund_code]["holdings_count"] = len(holdings_list)
         else:
             print(f"  {fund_code} {fund_name} holdings: no data")
+            if fund_code not in manifest["funds"]:
+                manifest["funds"][fund_code] = {"name": fund_name, "rows": 0, "error": "no holdings"}
     except Exception as e:
         print(f"  {fund_code} {fund_name} holdings: ERROR {e}")
-
-# Fetch fund data
-for fund_code, fund_name in FUNDS.items():
-    fetch_fund_nav(fund_code, fund_name)
-    fetch_fund_holdings(fund_code, fund_name)
+        if fund_code not in manifest["funds"]:
+            manifest["funds"][fund_code] = {"name": fund_name, "rows": 0, "error": str(e)}
+    
     time.sleep(1)
 
 with open("data/manifest.json", "w", encoding="utf-8") as f:
