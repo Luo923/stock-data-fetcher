@@ -1,0 +1,77 @@
+{
+  "fund_code": "240022",
+  "fund_name": "华宝资源优选混合A",
+  "holdings": [
+    {
+      "code": "1",
+      "name": "601899",
+      "share": "<a href='//quote.eastmoney.com/unify/r/1.601899'>紫金矿业</a>",
+      "value": "<span data-id='dq601899'></span>",
+      "ratio": "<span data-id='zd601899'></span>"
+    },
+    {
+      "code": "2",
+      "name": "000408",
+      "share": "<a href='//quote.eastmoney.com/unify/r/0.000408'>藏格矿业</a>",
+      "value": "<span data-id='dq000408'></span>",
+      "ratio": "<span data-id='zd000408'></span>"
+    },
+    {
+      "code": "3",
+      "name": "603993",
+      "share": "<a href='//quote.eastmoney.com/unify/r/1.603993'>洛阳钼业</a>",
+      "value": "<span data-id='dq603993'></span>",
+      "ratio": "<span data-id='zd603993'></span>"
+    },
+    {
+      "code": "4",
+      "name": "001203",
+      "share": "<a href='//quote.eastmoney.com/unify/r/0.001203'>大中矿业</a>",
+      "value": "<span data-id='dq001203'></span>",
+      "ratio": "<span data-id='zd001203'></span>"
+    },
+    {
+      "code": "5",
+      "name": "002532",
+      "share": "<a href='//quote.eastmoney.com/unify/r/0.002532'>天山铝业</a>",
+      "value": "<span data-id='dq002532'></span>",
+      "ratio": "<span data-id='zd002532'></span>"
+    },
+    {
+      "code": "6",
+      "name": "000807",
+      "share": "<a href='//quote.eastmoney.com/unify/r/0.000807'>云铝股份</a>",
+      "value": "<span data-id='dq000807'></span>",
+      "ratio": "<span data-id='zd000807'></span>"
+    },
+    {
+      "code": "7",
+      "name": "601600",
+      "share": "<a href='//quote.eastmoney.com/unify/r/1.601600'>中国铝业</a>",
+      "value": "<span data-id='dq601600'></span>",
+      "ratio": "<span data-id='zd601600'></span>"
+    },
+    {
+      "code": "8",
+      "name": "600988",
+      "share": "<a href='//quote.eastmoney.com/unify/r/1.600988'>赤峰黄金</a>",
+      "value": "<span data-id='dq600988'></span>",
+      "ratio": "<span data-id='zd600988'></span>"
+    },
+    {
+      "code": "9",
+      "name": "300390",
+      "share": "<a href='//quote.eastmoney.com/unify/r/0.300390'>天华新能</a>",
+      "value": "<span data-id='dq300390'></span>",
+      "ratio": "<span data-id='zd300390'></span>"
+    },
+    {
+      "code": "10",
+      "name": "600188",
+      "share": "<a href='//quote.eastmoney.com/unify/r/1.600188'>兖矿能源</a>",
+      "value": "<span data-id='dq600188'></span>",
+      "ratio": "<span data-id='zd600188'></span>"
+    }
+  ],
+  "updated": "2026-04-24T08:01:35.572773"
+}

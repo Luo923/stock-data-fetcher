@@ -1,0 +1,77 @@
+{
+  "fund_code": "004320",
+  "fund_name": "前海开源沪港深乐享生活",
+  "holdings": [
+    {
+      "code": "1",
+      "name": "300502",
+      "share": "<a href='//quote.eastmoney.com/unify/r/0.300502'>新易盛</a>",
+      "value": "<span data-id='dq300502'></span>",
+      "ratio": "<span data-id='zd300502'></span>"
+    },
+    {
+      "code": "2",
+      "name": "300308",
+      "share": "<a href='//quote.eastmoney.com/unify/r/0.300308'>中际旭创</a>",
+      "value": "<span data-id='dq300308'></span>",
+      "ratio": "<span data-id='zd300308'></span>"
+    },
+    {
+      "code": "3",
+      "name": "603306",
+      "share": "<a href='//quote.eastmoney.com/unify/r/1.603306'>华懋科技</a>",
+      "value": "<span data-id='dq603306'></span>",
+      "ratio": "<span data-id='zd603306'></span>"
+    },
+    {
+      "code": "4",
+      "name": "603052",
+      "share": "<a href='//quote.eastmoney.com/unify/r/1.603052'>可川科技</a>",
+      "value": "<span data-id='dq603052'></span>",
+      "ratio": "<span data-id='zd603052'></span>"
+    },
+    {
+      "code": "5",
+      "name": "603083",
+      "share": "<a href='//quote.eastmoney.com/unify/r/1.603083'>剑桥科技</a>",
+      "value": "<span data-id='dq603083'></span>",
+      "ratio": "<span data-id='zd603083'></span>"
+    },
+    {
+      "code": "6",
+      "name": "002222",
+      "share": "<a href='//quote.eastmoney.com/unify/r/0.002222'>福晶科技</a>",
+      "value": "<span data-id='dq002222'></span>",
+      "ratio": "<span data-id='zd002222'></span>"
+    },
+    {
+      "code": "7",
+      "name": "002384",
+      "share": "<a href='//quote.eastmoney.com/unify/r/0.002384'>东山精密</a>",
+      "value": "<span data-id='dq002384'></span>",
+      "ratio": "<span data-id='zd002384'></span>"
+    },
+    {
+      "code": "8",
+      "name": "300757",
+      "share": "<a href='//quote.eastmoney.com/unify/r/0.300757'>罗博特科</a>",
+      "value": "<span data-id='dq300757'></span>",
+      "ratio": "<span data-id='zd300757'></span>"
+    },
+    {
+      "code": "9",
+      "name": "600330",
+      "share": "<a href='//quote.eastmoney.com/unify/r/1.600330'>天通股份</a>",
+      "value": "<span data-id='dq600330'></span>",
+      "ratio": "<span data-id='zd600330'></span>"
+    },
+    {
+      "code": "10",
+      "name": "603738",
+      "share": "<a href='//quote.eastmoney.com/unify/r/1.603738'>泰晶科技</a>",
+      "value": "<span data-id='dq603738'></span>",
+      "ratio": "<span data-id='zd603738'></span>"
+    }
+  ],
+  "updated": "2026-04-24T08:01:42.602073"
+}
