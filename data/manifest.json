@@ -179,7 +179,38 @@
       "csv": "data/fund_015790.csv",
       "holdings": "data/fund_holdings/015790.json",
       "holdings_count": 10
+    },
+    "019244": {
+      "name": "汇丰晋信龙腾混合C",
+      "rows": 590,
+      "csv": "data/fund_019244.csv",
+      "holdings": "data/fund_holdings/019244.json",
+      "holdings_count": 10
+    },
+    "012062": {
+      "name": "富国全球消费精选混合QDII C",
+      "rows": 1116,
+      "csv": "data/fund_012062.csv",
+      "holdings": "data/fund_holdings/012062.json",
+      "holdings_count": 10
+    },
+    "000834": {
+      "name": "大成纳斯达克100ETF联接QDII A",
+      "rows": 2750,
+      "csv": "data/fund_000834.csv"
+    },
+    "002611": {
+      "name": "博时黄金ETF联接C",
+      "rows": 2412,
+      "csv": "data/fund_002611.csv"
+    },
+    "021532": {
+      "name": "天弘半导体设备指数A",
+      "rows": 450,
+      "csv": "data/fund_021532.csv",
+      "holdings": "data/fund_holdings/021532.json",
+      "holdings_count": 10
     }
   },
-  "updated": "2026-04-27T04:28:07.694051"
+  "updated": "2026-04-27T06:27:06.550729"
 }
