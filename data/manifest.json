@@ -2,215 +2,215 @@
   "stocks": {
     "601899": {
       "name": "紫金矿业",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_601899.csv"
     },
     "600519": {
       "name": "贵州茅台",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_600519.csv"
     },
     "300308": {
       "name": "中际旭创",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_300308.csv"
     },
     "300502": {
       "name": "新易盛",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_300502.csv"
     },
     "688981": {
       "name": "中芯国际",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_688981.csv"
     },
     "600875": {
       "name": "东方电气",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_600875.csv"
     },
     "601727": {
       "name": "上海电气",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_601727.csv"
     },
     "600111": {
       "name": "北方稀土",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_600111.csv"
     },
     "002460": {
       "name": "赣锋锂业",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_002460.csv"
     },
     "002384": {
       "name": "东山精密",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_002384.csv"
     },
     "300476": {
       "name": "胜宏科技",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_300476.csv"
     },
     "300751": {
       "name": "迈为股份",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_300751.csv"
     },
     "002475": {
       "name": "立讯精密",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_002475.csv"
     },
     "603259": {
       "name": "巨星科技",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_603259.csv"
     },
     "002008": {
       "name": "大族激光",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_002008.csv"
     },
     "603083": {
       "name": "剑桥科技",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_603083.csv"
     },
     "300570": {
       "name": "太辰光",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_300570.csv"
     },
     "603306": {
       "name": "华懋科技",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_603306.csv"
     },
     "002281": {
       "name": "光迅科技",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_002281.csv"
     },
     "300964": {
       "name": "本川智能",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_300964.csv"
     },
     "688396": {
       "name": "华润微",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_688396.csv"
     },
     "300049": {
       "name": "福瑞股份",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_300049.csv"
     },
     "600547": {
       "name": "山东黄金",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_600547.csv"
     },
     "601600": {
       "name": "中国铝业",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_601600.csv"
     },
     "000630": {
       "name": "铜陵有色",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_000630.csv"
     },
     "603993": {
       "name": "洛阳钼业",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_603993.csv"
     },
     "002738": {
       "name": "中矿资源",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_002738.csv"
     },
     "603799": {
       "name": "华友钴业",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_603799.csv"
     },
     "000831": {
       "name": "五矿稀土",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_000831.csv"
     },
     "300999": {
       "name": "金龙鱼",
-      "rows": 244,
+      "rows": 243,
       "csv": "data/stock_300999.csv"
     }
   },
   "funds": {
     "240022": {
       "name": "华宝资源优选混合A",
-      "rows": 3344,
+      "rows": 3345,
       "csv": "data/fund_240022.csv",
       "holdings": "data/fund_holdings/240022.json",
       "holdings_count": 10
     },
     "011369": {
       "name": "华商均衡成长混合A",
-      "rows": 1226,
+      "rows": 1227,
       "csv": "data/fund_011369.csv",
       "holdings": "data/fund_holdings/011369.json",
       "holdings_count": 10
     },
     "004320": {
       "name": "前海开源沪港深乐享生活",
-      "rows": 2200,
+      "rows": 2201,
       "csv": "data/fund_004320.csv",
       "holdings": "data/fund_holdings/004320.json",
       "holdings_count": 10
     },
     "015790": {
       "name": "永赢高端装备智选混合发起C",
-      "rows": 919,
+      "rows": 921,
       "csv": "data/fund_015790.csv",
       "holdings": "data/fund_holdings/015790.json",
       "holdings_count": 10
     },
     "019244": {
       "name": "汇丰晋信龙腾混合C",
-      "rows": 621,
+      "rows": 623,
       "csv": "data/fund_019244.csv",
       "holdings": "data/fund_holdings/019244.json",
       "holdings_count": 10
     },
     "012062": {
       "name": "富国全球消费精选混合QDII C",
-      "rows": 1148,
+      "rows": 1149,
       "csv": "data/fund_012062.csv",
       "holdings": "data/fund_holdings/012062.json",
       "holdings_count": 10
     },
     "000834": {
       "name": "大成纳斯达克100ETF联接QDII A",
-      "rows": 2781,
+      "rows": 2782,
       "csv": "data/fund_000834.csv"
     },
     "002611": {
       "name": "博时黄金ETF联接C",
-      "rows": 2443,
+      "rows": 2444,
       "csv": "data/fund_002611.csv"
     },
     "021532": {
       "name": "天弘半导体设备指数A",
-      "rows": 481,
+      "rows": 483,
       "csv": "data/fund_021532.csv",
       "holdings": "data/fund_holdings/021532.json",
       "holdings_count": 10
     }
   },
-  "updated": "2026-06-12T10:45:33.051002"
+  "updated": "2026-06-15T12:47:01.491609"
 }
