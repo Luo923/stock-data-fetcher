@@ -154,63 +154,63 @@
   "funds": {
     "240022": {
       "name": "华宝资源优选混合A",
-      "rows": 3352,
+      "rows": 3353,
       "csv": "data/fund_240022.csv",
       "holdings": "data/fund_holdings/240022.json",
       "holdings_count": 10
     },
     "011369": {
       "name": "华商均衡成长混合A",
-      "rows": 1234,
+      "rows": 1235,
       "csv": "data/fund_011369.csv",
       "holdings": "data/fund_holdings/011369.json",
       "holdings_count": 10
     },
     "004320": {
       "name": "前海开源沪港深乐享生活",
-      "rows": 2208,
+      "rows": 2209,
       "csv": "data/fund_004320.csv",
       "holdings": "data/fund_holdings/004320.json",
       "holdings_count": 10
     },
     "015790": {
       "name": "永赢高端装备智选混合发起C",
-      "rows": 927,
+      "rows": 928,
       "csv": "data/fund_015790.csv",
       "holdings": "data/fund_holdings/015790.json",
       "holdings_count": 10
     },
     "019244": {
       "name": "汇丰晋信龙腾混合C",
-      "rows": 629,
+      "rows": 630,
       "csv": "data/fund_019244.csv",
       "holdings": "data/fund_holdings/019244.json",
       "holdings_count": 10
     },
     "012062": {
       "name": "富国全球消费精选混合QDII C",
-      "rows": 1155,
+      "rows": 1156,
       "csv": "data/fund_012062.csv",
       "holdings": "data/fund_holdings/012062.json",
       "holdings_count": 10
     },
     "000834": {
       "name": "大成纳斯达克100ETF联接QDII A",
-      "rows": 2789,
+      "rows": 2790,
       "csv": "data/fund_000834.csv"
     },
     "002611": {
       "name": "博时黄金ETF联接C",
-      "rows": 2451,
+      "rows": 2452,
       "csv": "data/fund_002611.csv"
     },
     "021532": {
       "name": "天弘半导体设备指数A",
-      "rows": 489,
+      "rows": 490,
       "csv": "data/fund_021532.csv",
       "holdings": "data/fund_holdings/021532.json",
       "holdings_count": 10
     }
   },
-  "updated": "2026-06-25T09:49:05.332096"
+  "updated": "2026-06-26T09:55:42.494837"
 }
