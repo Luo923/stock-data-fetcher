@@ -161,14 +161,14 @@
     },
     "011369": {
       "name": "华商均衡成长混合A",
-      "rows": 1294,
+      "rows": 1295,
       "csv": "data/fund_011369.csv",
       "holdings": "data/fund_holdings/011369.json",
       "holdings_count": 10
     },
     "004320": {
       "name": "前海开源沪港深乐享生活",
-      "rows": 2268,
+      "rows": 2269,
       "csv": "data/fund_004320.csv",
       "holdings": "data/fund_holdings/004320.json",
       "holdings_count": 10
@@ -182,35 +182,35 @@
     },
     "019244": {
       "name": "汇丰晋信龙腾混合C",
-      "rows": 689,
+      "rows": 690,
       "csv": "data/fund_019244.csv",
       "holdings": "data/fund_holdings/019244.json",
       "holdings_count": 10
     },
     "012062": {
       "name": "富国全球消费精选混合QDII C",
-      "rows": 1216,
+      "rows": 1217,
       "csv": "data/fund_012062.csv",
       "holdings": "data/fund_holdings/012062.json",
       "holdings_count": 10
     },
     "000834": {
       "name": "大成纳斯达克100ETF联接QDII A",
-      "rows": 2849,
+      "rows": 2850,
       "csv": "data/fund_000834.csv"
     },
     "002611": {
       "name": "博时黄金ETF联接C",
-      "rows": 2511,
+      "rows": 2512,
       "csv": "data/fund_002611.csv"
     },
     "021532": {
       "name": "天弘半导体设备指数A",
-      "rows": 549,
+      "rows": 551,
       "csv": "data/fund_021532.csv",
       "holdings": "data/fund_holdings/021532.json",
       "holdings_count": 10
     }
   },
-  "updated": "2026-09-17T11:54:26.009114"
+  "updated": "2026-09-18T11:31:10.294126"
 }
