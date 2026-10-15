@@ -154,26 +154,28 @@
   "funds": {
     "240022": {
       "name": "华宝资源优选混合A",
-      "rows": 3426,
-      "csv": "data/fund_240022.csv"
+      "rows": 3427,
+      "csv": "data/fund_240022.csv",
+      "holdings": "data/fund_holdings/240022.json",
+      "holdings_count": 10
     },
     "011369": {
       "name": "华商均衡成长混合A",
-      "rows": 1307,
+      "rows": 1308,
       "csv": "data/fund_011369.csv",
       "holdings": "data/fund_holdings/011369.json",
       "holdings_count": 10
     },
     "004320": {
       "name": "前海开源沪港深乐享生活",
-      "rows": 2281,
+      "rows": 2282,
       "csv": "data/fund_004320.csv",
       "holdings": "data/fund_holdings/004320.json",
       "holdings_count": 10
     },
     "015790": {
       "name": "永赢高端装备智选混合发起C",
-      "rows": 1000,
+      "rows": 1001,
       "csv": "data/fund_015790.csv",
       "holdings": "data/fund_holdings/015790.json",
       "holdings_count": 10
@@ -199,7 +201,7 @@
     },
     "002611": {
       "name": "博时黄金ETF联接C",
-      "rows": 2524,
+      "rows": 2525,
       "csv": "data/fund_002611.csv"
     },
     "021532": {
@@ -210,5 +212,5 @@
       "holdings_count": 10
     }
   },
-  "updated": "2026-10-14T12:10:04.792583"
+  "updated": "2026-10-15T11:46:59.272491"
 }
